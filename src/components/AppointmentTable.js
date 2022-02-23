@@ -12,8 +12,8 @@ function AppointmentTable(props) {
   const { user } = UserState();
   // console.log(props);
   const [appointments, setAppointments] = React.useState([]);
-  let qDate = props.qDate;
-  let qShift = props.qShift;
+//   let qDate = props.qDate;
+//   let qShift = props.qShift;
   // console.log(props);
   const fetchAppointments = async () => {
     try {
@@ -57,6 +57,7 @@ function AppointmentTable(props) {
       }
     });
     setAppointments(items);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.qDate, props.q]);
   return (
     <TableWrapper>
