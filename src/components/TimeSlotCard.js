@@ -12,6 +12,7 @@ function TimeSlotCard({ from, to }) {
     let b = a.join("");
     let b1 = a1.join("");
     setTime({ from: b, to: b1 });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   //   console.log(time);
   return (
