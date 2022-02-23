@@ -45,7 +45,7 @@ function InfoModal({ info, onClose }) {
         <p className="info-title">
           Previous Appointments :{" "}
           <span className="info">
-            {"⚠  Feautres will be added in future ⚠"}
+            {"⚠  Features will be added in future ⚠"}
           </span>
         </p>
         <button className="btn btn--alt" onClick={onClose}>
