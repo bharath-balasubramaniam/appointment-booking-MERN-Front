@@ -1,3 +1,15 @@
+# Login Credentials
+
+## for Doctor / Admin
+### Username: `admin@gmail.com`
+### Password: `123456`
+
+## for Patient
+### Username: `rajini@gmail.com`
+### Password: `123123`
+[for User's page .](https://appointment-booking-user.netlify.app/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
