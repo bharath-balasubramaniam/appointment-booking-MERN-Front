@@ -25,6 +25,7 @@ const TimeSlotPage = () => {
   const [eveShift, setEveShift] = useState([]);
   useEffect(() => {
     fetchTimeslots();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedDate]);
   useEffect(() => {
     setTimeout(() => {
