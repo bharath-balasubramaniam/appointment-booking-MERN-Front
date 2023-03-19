@@ -62,7 +62,7 @@ function CreateModal({ onClose }) {
         },
       };
       const { data } = await axios.post(
-        `https://appointment-booking-be.herokuapp.com/timeSlot`,
+        `https://appointment-app-nn8n.onrender.com/timeSlot`,
         { date: date2, shift: shift, fromTime: time },
         config
       );
