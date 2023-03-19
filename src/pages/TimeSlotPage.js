@@ -64,7 +64,7 @@ const TimeSlotPage = () => {
         },
       };
       const { data } = await axios.get(
-        `https://appointment-booking-be.herokuapp.com/timeSlot?date=${date}`,
+        `https://appointment-app-nn8n.onrender.com/timeSlot?date=${date}`,
         config
       );
       ////////////////////////
