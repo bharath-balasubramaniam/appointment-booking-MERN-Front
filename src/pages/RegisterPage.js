@@ -116,7 +116,7 @@ function RegisterPage() {
         },
       };
       const { data } = await axios.post(
-        "https://appointment-booking-be.herokuapp.com/users/register",
+        "https://appointment-app-nn8n.onrender.com/users/register",
         { name, email, contact, password, pic },
         config
       );
