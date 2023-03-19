@@ -61,7 +61,7 @@ function ForgotPage() {
         headers: { "Content-type": "application/json" },
       };
       const { data } = await axios.post(
-        "https://appointment-booking-be.herokuapp.com/users/forgot-password",
+        "https://appointment-app-nn8n.onrender.com/users/forgot-password",
         { email },
         config
       );
