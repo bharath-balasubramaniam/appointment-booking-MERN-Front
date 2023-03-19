@@ -22,7 +22,7 @@ function AppointmentFilter(props) {
         },
       };
       const { data } = await axios.get(
-        "https://appointment-booking-be.herokuapp.com/appointments",
+        "https://appointment-app-nn8n.onrender.com/appointments",
         config
       );
 
